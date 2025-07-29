@@ -36,7 +36,7 @@ namespace DevOpsTraining
                 return forecast;
             });
 
-            app.Run("http://0.0.0.0:8080");
+            app.Run();
 
         }
     }
